@@ -5,7 +5,7 @@ print("Leave a space after each input")
 proto = input("Input Proxy Protocol:   ")
 socks = proto
 
-oauth = input("Enter Username and Password. If no auth leave blank:  ")
+oauth = input("Enter a space then enter Username and Password. If no auth leave blank:  ")
 
 
 with open(file, 'r') as fp:
