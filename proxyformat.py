@@ -1,11 +1,11 @@
 import string
 
 file = "proxys.txt"
-print("Easy Proxy List Formatter - By Derek Johnston")
+print("Easy Proxy List Proxychains4 Formatter")
 print("Leave a space after each input")
 proto = input("Input Proxy Protocol:   ")
 socks = proto
-
+print("For Authenticated Proxys")
 oauth = input("Enter a space then enter Username and Password. If no auth leave blank:  ")
 
 
@@ -23,11 +23,6 @@ with open(file, 'r') as istr:
             print(line, file=ostr)
 
  
-        
+print("saved as 'output.txt' Proxy list now follows Proxychains4.conf format")
+print("Derek Johnston. Corexital Data")        
     
-
-
-
-
-
-
